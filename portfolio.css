@@ -28,6 +28,7 @@ body {
 header {
     color: aliceblue;
     position: relative;
+    padding-bottom: 1;
 }
 
 a {
@@ -43,24 +44,30 @@ a:hover {
     opacity: 0.1;
 }
 
+.work {
+    margin-left: 160;
+}
+
 .headertxt {
     position: relative;
     margin-left: 50;
     margin-right: 50;
     font-size: 38;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
-    margin-bottom: 170;
     margin-top: 10;
 }
 
 .index {
-   margin-right: 150px;
+   float: left;
 }
 
-.crea {
-    margin-right: 150px;
-    font-size: 38;
-    margin-left: 1100px;
+.otherhead {
+    float: right;
+}
+
+
+.present {
+    text-align: center;
 }
 
 .hello {
@@ -72,10 +79,10 @@ a:hover {
 }
 
 .containerhome {
-    
     text-align: center;
     position: relative;
     margin-bottom: 0;
+    margin-top: 250;
 }
 
 .underlinehello {
