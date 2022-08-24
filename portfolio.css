@@ -1,0 +1,223 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Caviar';
+    src: url(CaviarDreams.ttf);
+}
+
+
+body {
+    background-image: url("Contour Line.svg");
+    position: relative;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: auto auto;
+    background-size: cover;
+}    
+
+
+header {
+    color: aliceblue;
+    position: relative;
+    padding-bottom: 1;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #600331;
+}
+
+.arrow:hover {
+    opacity: 0.1;
+}
+
+.work {
+    margin-left: 160;
+}
+
+.headertxt {
+    position: relative;
+    margin-left: 50;
+    margin-right: 50;
+    font-size: 38;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    margin-top: 10;
+}
+
+.index {
+   float: left;
+}
+
+.otherhead {
+    float: right;
+}
+
+
+.present {
+    text-align: center;
+}
+
+.hello {
+    font-family: Zapf Chancery;
+    color: #f0f8ff;
+    z-index: 20;
+    text-align: center;
+    font-size: 50;
+}
+
+.containerhome {
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 250;
+}
+
+.underlinehello {
+    font-family: Arial, cursive;
+    position: relative;
+    font-family: Zapf Chancery;
+    font-size: 30;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.arrow {
+    width: 8%;
+    position: relative;
+    margin-top: 150px;
+}
+
+.containerbio {
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 370;
+    color: aliceblue;
+    font-size: 32;
+    padding-left: 310;
+    padding-right: 310;
+    font-family: 'Caviar';
+}
+
+
+
+footer {
+    position: relative;
+    margin-top: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    color: aliceblue;
+    font-size: 15;
+
+}
+
+
+
+.containerlvl {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 38;
+    color: aliceblue;
+    float: left;
+    padding-left: 650;
+    padding-top: 130;
+    position: relative;
+    padding-right: 25;
+}
+
+.containerlvl2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 38;
+    color: aliceblue;
+    float: left;
+    padding-left: 592;
+    padding-top: 50;
+    position: relative;
+    padding-right: 25;
+}
+
+.containerlvl3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 38;
+    color: aliceblue;
+    float: left;
+    padding-left: 628;
+    padding-top: 50;
+    position: relative;
+    padding-right: 25;
+}
+
+.containerlvl4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 38;
+    color: aliceblue;
+    float: left;
+    padding-left: 697;
+    padding-top: 50;
+    position: relative;
+    padding-right: 25;
+}
+
+.containerlvl5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 38;
+    color: aliceblue;
+    float: left;
+    padding-left: 612;
+    padding-top: 50;
+    position: relative;
+    padding-right: 25;
+}
+
+.containerlvl6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    font-size: 38;
+    color: aliceblue;
+    float: left;
+    padding-left: 702;
+    padding-top: 50;
+    position: relative;
+    padding-right: 25;
+}
+
+.allRectLvl {
+    float: right;
+    padding-left: 25;
+    
+}
+
+.rect1 {
+    opacity: 0.9;
+}
+.rect2 {
+    opacity: 0.8;
+}
+.rect3 {
+    opacity: 0.7;
+}
+.rect4 {
+    opacity: 0.6;
+}
+.rect5 {
+    opacity: 0.5;
+}
+.rectN {
+    opacity: 0;
+}
