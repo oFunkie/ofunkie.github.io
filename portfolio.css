@@ -107,7 +107,7 @@ p {
 }
 
 .containerbio {
-    text-align: center;
+    text-align: justify;
     position: relative;
     margin-bottom: 0;
     margin-top: 370;
@@ -135,5 +135,6 @@ ul {
     font-size: 25;
     margin-top: 100px;
     list-style-type: none;
+    text-align: justify;
 }
 
