@@ -133,6 +133,7 @@ footer {
 
 ul {
     font-size: 25;
-    margin-top: 100;
+    margin-top: 100px;
+    list-style-type: none;
 }
 
