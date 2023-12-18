@@ -122,13 +122,34 @@ p {
 
 
 footer {
-    position: relative;
-    margin-top: 800;
+    margin-top: 400px;
+    padding: 10px;
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
     color: aliceblue;
-    font-size: 15;
+    font-size: 20;
+    opacity: 20%;
 
 }
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: inline-block;
+    width: 30.33%;
+}
+
+.git {
+    max-width: 5%;
+    height: auto;
+    filter: invert(100%); /* Inverse les couleurs de l'image */
+}
+.git:hover{
+    filter: invert(100%); /* Inverse les couleurs de l'image */
+    opacity: 20%;
+
+}
+
 
 
 ul {
@@ -138,3 +159,6 @@ ul {
     text-align: justify;
 }
 
+.work {
+    padding-top: 100px;
+}
