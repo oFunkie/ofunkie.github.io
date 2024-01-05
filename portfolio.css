@@ -1,0 +1,614 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(font/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Caviar';
+    src: url(font/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: 'Amanda';
+    src: url(font/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+
+/*HEADER*/
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.name,
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+.sommaire {
+    color: #003001;
+    font-size: 28px;
+    font-family: 'Caviar';
+    font-weight: bold;
+    text-align: left;
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 20;
+
+}
+
+.sommaire a {
+    color: #003001;
+    font-family: 'Caviar';
+    font-weight: bold;
+    text-shadow: #003001 0.5px 0 2px;
+    transition: color 0.5s ease, text-shadow 0.5s ease;
+    /* Ajout de la transition */
+
+}
+
+.sommaire a:hover {
+    color: #003001;
+    font-family: 'Caviar';
+    font-weight: bold;
+    text-shadow: none;
+
+}
+
+.image-container a:hover {
+    opacity: 40%;
+    transition: color 0.5s ease, opacity 0.5s ease;
+    /* Ajout de la transition */
+
+}
+
+
+
+
+/*HEADER*/
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease, color 0.5s ease;
+    /* Ajout de la transition */
+
+}
+
+header {
+    background-image: url("media/bg.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar {
+    position: relative;
+    margin-left: 50;
+    margin-right: 50;
+    font-size: 38;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 10;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.projects-container {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#projectsList {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #003001;
+    opacity: 0;
+    /*border-radius: 8px; */
+    padding: 2px;
+    width: 15px;
+    transition: opacity 0.5s, width 0.5s, padding 0.5s;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.projects-container:hover #projectsList {
+    display: block;
+    opacity: 1;
+    width: 160px;
+    padding: 2px;
+    list-style-type: none;
+}
+
+#projectsList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#projectsList li {
+    margin-left: 2px;
+}
+
+
+.navbar a:hover {
+    color: rgb(119, 119, 119);
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 50;
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+    font-size: 25;
+}
+
+/*IMAGES*/
+
+.eliorajeune {
+    width: 30%;
+    transform: rotate(-4deg);
+    margin-top: 20;
+}
+
+.eliorajeune2 {
+    width: 30%;
+    transform: rotate(3deg);
+    margin-top: 20;
+}
+
+.elioraoutift {
+    width: 30%;
+    transform: rotate(-2deg);
+    margin-top: 20;
+}
+
+.mere {
+    width: 30%;
+    transform: rotate(4deg);
+    margin-top: 20;
+}
+
+.mere2 {
+    width: 30%;
+    transform: rotate(-3deg);
+    margin-top: 20;
+}
+
+.mere3 {
+    width: 30%;
+    transform: rotate(2deg);
+    margin-top: 20;
+}
+
+.elioraadulte {
+    width: 30%;
+    transform: rotate(-3deg);
+    margin-top: 20;
+}
+
+.elioraadulte3 {
+    width: 30%;
+    transform: rotate(2deg);
+    margin-top: 20;
+}
+
+.elioraadulte2 {
+    width: 30%;
+    transform: rotate(-4deg);
+    margin-top: 20;
+}
+
+.vortex {
+    margin-top: 60px;
+    width: 60%;
+    transform: rotate(6deg);
+
+}
+
+.vortex2 {
+    margin-top: 60;
+    width: 60%;
+    transform: rotate(-2deg);
+    margin-bottom: 60px;
+}
+
+.requiem {
+    margin-top: 60px;
+    width: 50%;
+    transform: rotate(-4deg);
+
+}
+
+.requiem2 {
+    margin-top: 60;
+    width: 50%;
+    transform: rotate(3deg);
+    margin-bottom: 60px;
+}
+
+.vortex {
+    margin-top: 60px;
+    width: 60%;
+    transform: rotate(6deg);
+
+}
+
+.vortex2 {
+    margin-top: 60;
+    width: 60%;
+    transform: rotate(-2deg);
+    margin-bottom: 60px;
+}
+
+.tol {
+    margin-top: 60px;
+    width: 50%;
+    transform: rotate(6deg);
+
+}
+
+.tol2 {
+    margin-top: 60;
+    width: 50%;
+    transform: rotate(-2deg);
+    margin-bottom: 60px;
+}
+
+
+.kerity1 {
+    transform: rotate(-2deg);
+    margin-top: 20;
+
+}
+
+.kerity2 {
+    transform: rotate(5deg);
+    margin-top: 20;
+
+    width: 40%;
+}
+
+
+/*BODY*/
+
+h1 {
+    font-size: 45px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0px;
+    zoom: 100%;
+    transform: scale(1);
+}
+
+.hello {
+    font-family: 'Caviar';
+    color: #003001;
+    text-align: center;
+    font-size: 50;
+    margin-top: 150;
+    text-shadow: #003001 0.5px 0 2px;
+    font-weight: bold;
+}
+
+.underline {
+    font-family: 'Caviar';
+    color: #003001;
+    text-align: center;
+    font-size: 28;
+    font-weight: bold;
+    text-shadow: #003001 0.5px 0 2px;
+}
+
+.presentation {
+    margin-top: 60px;
+    font-family: 'Caviar';
+    font-size: 28;
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: justify;
+}
+
+.description a {
+    color: #003001;
+    text-shadow: #003001 0.5px 0 2px;
+}
+
+.description a:hover {
+    color: #000000;
+    text-shadow: none;
+}
+
+.description2 a {
+    color: #003001;
+    text-shadow: #003001 0.5px 0 2px;
+}
+
+.description2 a:hover {
+    color: #000000;
+    text-shadow: none;
+}
+
+
+
+.main-words {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 100;
+}
+
+.word {
+    font-size: 28;
+    font-family: 'Caviar';
+    margin-right: 30px;
+    text-align: right;
+    color: #003001;
+    font-weight: bold;
+    text-shadow: #003001 0.5px 0 2px;
+}
+
+.description {
+    flex-grow: 1;
+    text-align: justify;
+    font-family: 'Caviar';
+    font-size: 24;
+    font-weight: bold;
+}
+
+.main-words2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 100;
+}
+
+.word2 {
+    font-size: 28;
+    font-family: 'Caviar';
+    margin-left: 30px;
+    text-align: left;
+    color: #003001;
+    font-weight: bold;
+    text-shadow: #003001 0.5px 0 2px;
+}
+
+.description2 {
+    flex-grow: 1;
+    text-align: justify;
+    font-family: 'Caviar';
+    font-size: 24;
+    font-weight: bold;
+}
+
+
+.vortex {
+    margin-top: 60px;
+    width: 60%;
+    transform: rotate(6deg);
+
+}
+
+.vortex2 {
+    margin-top: 60;
+    width: 60%;
+    transform: rotate(-2deg);
+    margin-bottom: 60px;
+}
+
+.requiem {
+    margin-top: 60px;
+    width: 50%;
+    transform: rotate(-4deg);
+
+}
+
+.requiem2 {
+    margin-top: 60;
+    width: 50%;
+    transform: rotate(3deg);
+    margin-bottom: 60px;
+}
+
+.vortex {
+    margin-top: 60px;
+    width: 60%;
+    transform: rotate(6deg);
+
+}
+
+.vortex2 {
+    margin-top: 60;
+    width: 60%;
+    transform: rotate(-2deg);
+    margin-bottom: 60px;
+}
+
+.tol {
+    margin-top: 60px;
+    width: 50%;
+    transform: rotate(6deg);
+
+}
+
+.tol2 {
+    margin-top: 60;
+    width: 50%;
+    transform: rotate(-2deg);
+    margin-bottom: 60px;
+}
+
+
+.kerity1 {
+    transform: rotate(-2deg);
+    margin-top: 20;
+
+}
+
+.kerity2 {
+    transform: rotate(5deg);
+    margin-top: 20;
+
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-image: url("media/bg.png");
+    background-position: auto auto;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.navbar {
+    position: relative;
+    margin-left: 50;
+    margin-right: 50;
+    font-size: 38;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-top: 10;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* ... (votre code CSS existant) ... */
+
+.projects-container {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#projectsList {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #003001;
+    opacity: 0;
+    /*border-radius: 8px; */
+    padding: 2px;
+    width: 15px;
+    transition: opacity 0.5s, width 0.5s, padding 0.5s;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.projects-container:hover #projectsList {
+    display: block;
+    opacity: 1;
+    width: 160px;
+    padding: 2px;
+    list-style-type: none;
+}
+
+#projectsList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#projectsList li {
+    margin-left: 2px;
+}
+
+
+.navbar a:hover {
+    color: rgb(207, 207, 207);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 50;
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+    font-size: 25;
+}
+
+
+footer {
+    margin-top: 400px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20;
+    opacity: 20%;
+
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    display: inline-block;
+    width: 30.33%;
+}
+
+.git {
+    max-width: 5%;
+    height: auto;
+
+}
+
+.git:hover {
+    filter: invert(100%);
+    /* Inverse les couleurs de l'image */
+    opacity: 20%;
+
+}
+
+footer a {
+
+    color: #000000;
+}
